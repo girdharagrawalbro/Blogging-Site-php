@@ -1,0 +1,109 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:whitesmoke;
+    font-family: sans-serif;
+  }
+
+/* comman css  */
+.flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 1rem ;
+    cursor: pointer;
+}   
+
+/* navbar seciton */
+#header{
+    position: fixed; /* Added */
+    top: 0; /* Added to keep it at the top of the viewport */
+    
+}
+nav{
+    /* width: 1240px; Added to make it full width */
+    width: 100%;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+
+    justify-content: space-around;
+    padding: 1rem ;
+}
+
+.sidenav{
+    background-color:rgba(33, 37, 41, 1);
+   color: white;
+    position: fixed;
+    border-top:1px solid #333 ;
+    font-size: large;
+    font-weight: 600;
+    top:4.1rem;
+
+    width: 10rem;
+    height: 100vh;
+}
+.sidenav ul li:hover
+{
+    /* background-color:rgba(33, 37, 41, 1); */
+    background-color: #0d6efd;
+    cursor: pointer; /* Change cursor to pointer on hover/focus */
+}
+.menu-item.open {
+    background-color: #0d6efd;  
+}
+iframe{
+    position: absolute; 
+    width: 1206px;
+    height:90vh;
+    left:10rem;
+    top:4.1rem;
+
+}
+button{
+    padding: .6rem;
+    color: white;
+    cursor: pointer;
+    background-color: #bb2d3b   ;
+    border: none;
+}
+
+.iframe{
+    padding: .5rem 5rem;
+color: #333;
+}
+.iframe .form{
+    padding: 0 3rem;
+}
+.iframe label{
+    font-size: large;
+    font-weight: 500;
+}
+
+.iframe  .content h2{
+    font-weight: 750;
+font-size: 2rem;
+    text-align: center;
+}
+#checkbox{
+    width:2rem;
+}
+
+.post{
+    display: none;
+}
+
+.table table{
+    width: 100%;    
+}
+
+.box{
+    width: 240px;
+    text-align: center;
+}
